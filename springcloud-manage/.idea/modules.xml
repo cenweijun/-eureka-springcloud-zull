@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mycen-eureka/mycen-eureka.iml" filepath="$PROJECT_DIR$/mycen-eureka/mycen-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycen-eureka2/mycen-eureka2.iml" filepath="$PROJECT_DIR$/mycen-eureka2/mycen-eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycen-service-consumer/mycen-service-consumer.iml" filepath="$PROJECT_DIR$/mycen-service-consumer/mycen-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycen-service-provider/mycen-service-provider.iml" filepath="$PROJECT_DIR$/mycen-service-provider/mycen-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycen-service-provider2/mycen-service-provider2.iml" filepath="$PROJECT_DIR$/mycen-service-provider2/mycen-service-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycen-zuul/mycen-zuul.iml" filepath="$PROJECT_DIR$/mycen-zuul/mycen-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-manage.iml" filepath="$PROJECT_DIR$/springcloud-manage.iml" />
+    </modules>
+  </component>
+</project>

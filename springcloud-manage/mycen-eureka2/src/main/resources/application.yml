@@ -1,0 +1,15 @@
+server:
+  port: 8079
+
+
+spring:
+  application:
+    name: mycen-eureka
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:8080/eureka
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 1000

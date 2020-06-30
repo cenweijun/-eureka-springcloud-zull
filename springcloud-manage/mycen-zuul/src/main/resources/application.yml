@@ -1,0 +1,39 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: zull-api
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka,http://localhost:8079/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 10
+    lease-renewal-interval-in-seconds: 5
+    instance-id: zuull8099.com
+#    prefer-ip-address: true
+
+
+zuul:
+  routes:
+    service-provider: # 这里是路由id，随意写
+      path: /myprovider/** # 这里是映射路径
+      serviceId: service-provider # 指定服务名称
+
+
+
+ribbon:
+  ReadTimeout: 6000
+  ConnectTimeout: 6000
+
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeout-in-milliseconds: 6000
